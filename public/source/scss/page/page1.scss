@@ -1,0 +1,46 @@
+@mixin border-radius($radius:5px){
+	border-radius:$radius;
+	-webkit-border-radius:$radius;
+}
+
+@mixin border-radius-s($radius){
+	border-radius:$radius;
+	-webkit-border-radius:$radius;
+}
+
+
+$side:left;
+.tead{
+	
+}
+.head{
+  font-size:21px;
+}
+.div-container{
+	border-#{$side}:3px solid red;
+	width:600px;
+	height:40px;
+	border :{
+		right:3px solid black;
+		bottom:2px solid green;
+	};
+	@include border-radius-s(10px);
+
+}
+$sidee:left;
+.rounded {
+    border-#{$sidee}-radius: 5px;
+}   
+
+$global-color:blue;
+.block{
+	color:$global-color
+}
+.second-block{
+	$local-color:green;
+	color:$local-color;
+}
+
+
+
+

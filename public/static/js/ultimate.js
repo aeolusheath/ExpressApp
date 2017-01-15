@@ -1,0 +1,1 @@
+function index_(){console.log("this function come from index")}function index_(){console.log("this function come from login")}$(function(){console.log("this js is for client's index ")}),$(function(){console.log("this file is for login")});

@@ -1,0 +1,5 @@
+/node_modules/
+*.pem
+nohup.out
+npm-debug.log
+npm-debug.log.*
